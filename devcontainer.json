@@ -1,0 +1,8 @@
+{
+    "name": "Inventory System DevContainer",
+    "image": "python:3.10-slim",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {}
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+}
